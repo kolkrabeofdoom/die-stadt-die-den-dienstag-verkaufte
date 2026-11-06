@@ -1,0 +1,22 @@
+# Lokale und generierte Arbeitsdaten
+work/
+outputs/
+render*/
+tmp/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Office und Betriebssystem
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor und IDE
+.vscode/
+.idea/
+
