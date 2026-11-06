@@ -1,4 +1,6 @@
-# Die Stadt die den Dienstag verkaufte
+# Die Stadt, die den Dienstag verkaufte
+
+![Cover des Abenteuers: Die Stadt, die den Dienstag verkaufte](assets/illustrationen/cover.png)
 
 Ein illustriertes Daggerheart-Abenteuer für vier Figuren auf Stufe 1 und zwei Spielabende von jeweils ungefähr vier Stunden.
 
@@ -7,6 +9,8 @@ Veyra hat den Dienstag verkauft. Die Körper arbeiten weiter, die bewusste Erinn
 ## Aktueller Stand
 
 **Release Candidate 1, Fassung 2.1**
+
+[Vollständiges RC1-Austauschpaket herunterladen](https://github.com/kolkrabeofdoom/die-stadt-die-den-dienstag-verkaufte/releases/tag/v2.1-rc1)
 
 Die aktuelle Fassung enthält:
 
@@ -19,7 +23,28 @@ Die aktuelle Fassung enthält:
 - Portraits, Aufsteller und VTT-Material;
 - einen simulierten Zwei-Abende-Testlauf.
 
-## Einstieg
+## Schnellzugriff
+
+### Für die Spielleitung
+
+> [!WARNING]
+> Die folgenden Dokumente enthalten vollständige Lösungen, Gegner*innenprofile, Countdowns und mögliche Enden. Spielende sollten diesen Bereich meiden. Der Dienstag ist bereits verschwunden; die Überraschungen müssen ihm nicht folgen.
+
+- [Releasebegleiter](docs/spielleitung/Die_Stadt_die_den_Dienstag_verkaufte_Releasebegleiter_RC1_v2_1.pdf)
+- [Spielleitungsheft](docs/spielleitung/Die_Stadt_die_den_Dienstag_verkaufte_Spielleitungsheft_RC1_v2_1.pdf)
+- [Gesamtausgabe](docs/spielleitung/Die_Stadt_die_den_Dienstag_verkaufte_Gesamtausgabe_RC1_v2_1.pdf)
+- [Leitungsschnellreferenz](docs/spielleitung/Die_Stadt_die_den_Dienstag_verkaufte_Leitungsschnellreferenz_v1_0.pdf)
+- [Szenenkarten](docs/spielleitung/Die_Stadt_die_den_Dienstag_verkaufte_Szenenkarten_v1_0.pdf)
+- [Aufstellerbogen](docs/spielleitung/Die_Stadt_die_den_Dienstag_verkaufte_Aufstellerbogen_v1_0.pdf)
+
+### Für Spielende
+
+- [Spoilerarmes Spielendenpaket](docs/spielende/Die_Stadt_die_den_Dienstag_verkaufte_Spielendenpaket_RC1_v2_1.pdf)
+- [Spielendensichere Stadtkarte von Veyra](docs/spielende/Veyra_Stadtkarte_spielendensicher_v1_0.png)
+
+Das Spielendenpaket enthält keine Leitungsnotizen. Einzelne Handouts sollten dennoch erst in ihrer vorgesehenen Szene geöffnet werden. Spoilerfreiheit ist schließlich kein Naturzustand, sondern gemeinschaftliche Infrastruktur.
+
+## Empfohlener Einstieg
 
 Für die Spielleitung:
 
@@ -27,7 +52,7 @@ Für die Spielleitung:
 2. `docs/spielleitung/Die_Stadt_die_den_Dienstag_verkaufte_Spielleitungsheft_RC1_v2_1.pdf`
 3. Schnellreferenz und Szenenkarten aus demselben Ordner
 
-Für Spielende darf ausschließlich der Ordner `docs/spielende` geteilt werden. Das dortige Paket enthält keine Leitungsnotizen; einzelne Handouts sollten trotzdem erst in ihrer Szene geöffnet werden. Spoilerfreiheit ist schließlich kein Naturzustand, sondern eine gemeinschaftliche Infrastruktur.
+Für Spielende sollte ausschließlich der Ordner `docs/spielende` geteilt werden.
 
 ## Verzeichnisstruktur
 
