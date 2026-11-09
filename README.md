@@ -1,6 +1,6 @@
 # Die Stadt, die den Dienstag verkaufte
 
-![Cover des Abenteuers: Die Stadt, die den Dienstag verkaufte](assets/illustrationen/cover.png)
+![Eine vielfältige Gruppe blickt über das regennasse, von Straßenbahnen und Uhrwerken geprägte Veyra](assets/illustrationen/cover_readme.jpg)
 
 Ein illustriertes Daggerheart-Abenteuer für vier Figuren auf Stufe 1 und zwei Spielabende von jeweils ungefähr vier Stunden.
 
