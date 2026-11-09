@@ -25,13 +25,23 @@ Die aktuelle Fassung enthält:
 
 ### Companion-App für die Spielleitung
 
-Die lokale Windows-App bündelt Szenen, Countdowns, NSC- und Gegner*innen-Dossiers,
-Handout-Freigaben, Sitzungsnotizen, Enden und einen spoilerarmen Spielendenmodus.
-Sie arbeitet vollständig offline und ist unveränderlich an den Inhalt von
-`v2.1-rc1` gebunden. Der Dienstag kann also verschwinden, das WLAN darf bleiben.
+**Aktuelle App-Version: 0.1.0 für Windows**
 
+Die lokale App bündelt Szenen, Countdowns, NSC- und Gegner*innen-Dossiers,
+Trefferpunkte- und Stressverwaltung, Handout-Freigaben, Sitzungsnotizen, Enden
+und einen spoilerarmen Spielendenmodus. Sie arbeitet vollständig offline und
+ist unveränderlich an den geprüften Inhalt von `v2.1-rc1` gebunden. Der Dienstag
+kann also verschwinden, das WLAN darf bleiben.
+
+- [Release und Installationshinweise](https://github.com/kolkrabeofdoom/die-stadt-die-den-dienstag-verkaufte/releases/tag/companion-v0.1.0)
+- [Windows-Installer herunterladen](https://github.com/kolkrabeofdoom/die-stadt-die-den-dienstag-verkaufte/releases/download/companion-v0.1.0/Die_Stadt_die_den_Dienstag_verkaufte_Companion_v0_1_0_Setup.exe)
+- [Portable Windows-App herunterladen](https://github.com/kolkrabeofdoom/die-stadt-die-den-dienstag-verkaufte/releases/download/companion-v0.1.0/Die_Stadt_die_den_Dienstag_verkaufte_Companion_v0_1_0_portable.exe)
+- [SHA-256-Prüfsummen](https://github.com/kolkrabeofdoom/die-stadt-die-den-dienstag-verkaufte/releases/download/companion-v0.1.0/SHA256SUMS-companion-v0.1.0.txt)
 - [Quellcode und Bauanleitung](companion-app/README.md)
-- Windows-Installer und portable Fassung liegen nach einem Build im Ordner `outputs/`.
+
+> [!NOTE]
+> Die Programme sind nicht kommerziell codesigniert. Windows kann deshalb beim
+> ersten Start eine Sicherheitswarnung anzeigen.
 
 ## Schnellzugriff
 
