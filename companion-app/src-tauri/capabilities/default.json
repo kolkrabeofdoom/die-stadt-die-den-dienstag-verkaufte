@@ -1,0 +1,8 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-capability",
+  "description": "Minimale Rechte für die vollständig lokale Spielleitungs-App",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
+

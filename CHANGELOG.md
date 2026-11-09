@@ -1,5 +1,13 @@
 # Änderungsverlauf
 
+## Unveröffentlicht: Companion-App 0.1.0
+
+- Offline-Companion-App in Rust mit Leptos und Tauri ergänzt.
+- Acht Szenen, vier Countdowns, Dossiers, Handouts, Enden und Schnellreferenzen integriert.
+- Zwei-Abende- und Vier-Stunden-One-Shot-Modus mit jeweils eigener Ablaufübersicht ergänzt.
+- Spoilerarmen Spielendenmodus und lokale, automatische Sitzungsstände umgesetzt.
+- Inhalt unveränderlich an Release `v2.1-rc1` und Quellcommit `69020e5` gebunden.
+
 ## Release Candidate 1 Fassung 2.1
 
 - Chronotresor-Karte vollständig neu illustriert und in das Spielleitungsheft eingebaut.

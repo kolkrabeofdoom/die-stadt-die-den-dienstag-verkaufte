@@ -1,0 +1,17 @@
+[package]
+name = "dienstag-companion"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Offline-Companion für Die Stadt, die den Dienstag verkaufte"
+
+[lib]
+name = "dienstag_companion_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.5.3", features = [] }
+
+[dependencies]
+tauri = { version = "2.12.5", features = [] }
+

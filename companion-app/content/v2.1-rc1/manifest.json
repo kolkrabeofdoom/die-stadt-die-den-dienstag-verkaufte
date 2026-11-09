@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "content_version": "2.1-rc1",
+  "display_version": "Release Candidate 1 · Fassung 2.1",
+  "source_commit": "69020e5",
+  "language": "de",
+  "players": 4,
+  "character_level": 1,
+  "sessions": 2,
+  "minutes_per_session": 240,
+  "license_note": "Unabhängiges, nicht offiziell unterstütztes Daggerheart-Fanprojekt."
+}
+

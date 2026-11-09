@@ -23,6 +23,16 @@ Die aktuelle Fassung enthält:
 - Portraits, Aufsteller und VTT-Material;
 - einen simulierten Zwei-Abende-Testlauf.
 
+### Companion-App für die Spielleitung
+
+Die lokale Windows-App bündelt Szenen, Countdowns, NSC- und Gegner*innen-Dossiers,
+Handout-Freigaben, Sitzungsnotizen, Enden und einen spoilerarmen Spielendenmodus.
+Sie arbeitet vollständig offline und ist unveränderlich an den Inhalt von
+`v2.1-rc1` gebunden. Der Dienstag kann also verschwinden, das WLAN darf bleiben.
+
+- [Quellcode und Bauanleitung](companion-app/README.md)
+- Windows-Installer und portable Fassung liegen nach einem Build im Ordner `outputs/`.
+
 ## Schnellzugriff
 
 ### Für die Spielleitung
@@ -65,6 +75,8 @@ docs/
   spielleitung/       Hauptheft, Gesamtausgabe und Leitungswerkzeuge
   spielende/          spoilergetrenntes Paket und öffentliche Stadtkarte
 src/                  reproduzierbare Python-Bauskripte
+companion-app/        quelloffene Rust-App für die Spielleitung
+outputs/              lokal gebaute Windows-Artefakte
 ```
 
 Die vollständige ZIP-Ausgabe mit 80 transparenten VTT-Token wird als GitHub Release veröffentlicht und nicht zusätzlich in der normalen Git-Historie gespeichert.

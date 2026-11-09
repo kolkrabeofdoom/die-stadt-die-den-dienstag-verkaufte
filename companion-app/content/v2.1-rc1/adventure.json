@@ -1,0 +1,321 @@
+{
+  "title": "Die Stadt, die den Dienstag verkaufte",
+  "subtitle": "Ein Daggerheart-Abenteuer über Zeit, Eigentum und eine Straßenbahn mit sehr eigenwilligem Fahrplan",
+  "content_version": "2.1-rc1",
+  "premise": "Veyra hat den Dienstag verkauft. Die Körper arbeiten während einer administrativen Trance weiter, doch bewusste Erinnerung, Regeneration und freie Zeit werden als Zeit-Zinsen abgeschöpft. Zur hundertsten Nulluhr droht der Vertrag endgültig zu werden.",
+  "safety": [
+    "Zeitverlust, Erinnerungslücken und strukturelle Ausbeutung vorab besprechen.",
+    "Lines, Veils und ein jederzeit nutzbares Pausensignal vereinbaren.",
+    "Fürsorge, Behinderung und Armut sind keine Kulisse für Elendsporn: Betroffene Personen besitzen Handlungsmacht.",
+    "Konflikte dürfen verhandelt, umgangen oder beendet werden; kein Kampf ist Pflicht."
+  ],
+  "schedule": [
+    {"label":"Abend 1 · 0:00–0:20","scene":"Rahmung","purpose":"Sicherheit, Figurenanker, fehlender Dienstag"},
+    {"label":"Abend 1 · 0:20–1:05","scene":"1 · Der fehlende Morgen","purpose":"Rettung und erste Spur"},
+    {"label":"Abend 1 · 1:05–1:55","scene":"2 · Markt ohne Gestern","purpose":"Fraktionen und Archivzugänge"},
+    {"label":"Abend 1 · 1:55–2:05","scene":"Pause","purpose":"Auch Held*innen dürfen Wasser trinken"},
+    {"label":"Abend 1 · 2:05–3:00","scene":"3 · Archiv der kleinen Wahrheiten","purpose":"Vertragskern, Tessa und Linie 7"},
+    {"label":"Abend 1 · 3:00–3:50","scene":"4 · Fahrt nach Nachmorgen","purpose":"Persönliche Wahrheiten und Cliffhanger"},
+    {"label":"Abend 2 · 0:00–0:15","scene":"Rückblick","purpose":"Sterne, Wünsche und Countdowns"},
+    {"label":"Abend 2 · 0:15–1:05","scene":"5 · Menschen aus Minuten","purpose":"Betroffene und dritte Möglichkeit"},
+    {"label":"Abend 2 · 1:05–1:55","scene":"6 · Besetzung des Kalenderwerks","purpose":"Drei Fronten"},
+    {"label":"Abend 2 · 1:55–2:05","scene":"Pause","purpose":"Revolution mit Sitzgelegenheit"},
+    {"label":"Abend 2 · 2:05–3:05","scene":"7 · Der Chronotresor","purpose":"Siegel und Ressourcen fürs Finale"},
+    {"label":"Abend 2 · 3:05–3:45","scene":"8 · Wem gehört die Zeit?","purpose":"Finale und Entscheidung"},
+    {"label":"Abend 2 · 3:45–4:00","scene":"Epilog","purpose":"Konkrete Folgen und freier Dienstag"}
+  ],
+  "one_shot_schedule": [
+    {"label":"0:00–0:20","scene":"Anker und fehlender Morgen","purpose":"Rettung, Quittung und Voss; Markt als zwei schnelle Fragen"},
+    {"label":"0:20–1:05","scene":"Archivbahnsteig","purpose":"Indexrad und Tessas Enthüllung; Kampf nur bei aktivem Wunsch"},
+    {"label":"1:05–1:35","scene":"Linie 7","purpose":"Eine Waggonfrage je Figur; Entgleisung hat zwei Segmente"},
+    {"label":"1:35–1:45","scene":"Pause","purpose":"Zehn Minuten, die niemand verzinsen darf"},
+    {"label":"1:45–2:25","scene":"Nachmorgen","purpose":"Kollektiv, Ritual und Dienstag; Lio und Vorräte als Montage"},
+    {"label":"2:25–3:05","scene":"Kalenderwerk","purpose":"Eine gemeinsame Vier-Segment-Challenge statt drei Fronten"},
+    {"label":"3:05–3:45","scene":"Nulluhr","purpose":"Solo mit 8 HP und zwei Siegeln; Tresor als drei Fragen"},
+    {"label":"3:45–4:00","scene":"Ende","purpose":"Entscheidung und eine Epilogfrage je Figur"}
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Der fehlende Morgen",
+      "location": "Platz der fehlenden Glocke",
+      "duration_minutes": 45,
+      "goal": "Die Lücke körperlich erfahrbar machen, Menschen retten und die erste Spur ausgeben.",
+      "opening": "Montagabend. Regen glänzt auf den Schienen. Die große Uhr hebt den Zeiger – und die Welt stolpert in den Mittwoch. Eine Tram fährt an, die Fahrperson erkennt die am Dienstag ausgehobene Baugrube zu spät und bremst über dem Abgrund.",
+      "beats": [
+        "Mio und drei Fahrgäste hängen in der Tram über der Baugrube.",
+        "Rettung: vier Fortschrittssegmente, Schwierigkeit 10–12; kritischer Erfolg füllt zwei.",
+        "Nach drei Spotlight-Wechseln kippt die Tram: alle werden gerettet, aber Rettende markieren 1 Stress und die Wache nimmt die Quittung.",
+        "Zwei Taktwächter*innen schützen die Uhr statt der Menschen."
+      ],
+      "clues": [
+        "Die Dienstagsquittung nennt Morgen & Söhne und Vertrag 7/7.",
+        "Blaues Archivwachs liegt unter der Tram.",
+        "Mios Handschuh trägt dieselbe Tinte wie die Papiermotte.",
+        "Die Motte reagiert auf vier gemeinsam resonierende Zeitanker."
+      ],
+      "moves": [
+        "Lass das Metall einen weiteren Zentimeter nachgeben.",
+        "Biete Rettung gegen verlorene Ausrüstung oder Stress an.",
+        "Lass die Taktwache Beweise statt Menschen sichern.",
+        "Erhöhte Aufmerksamkeit +1 bei Erfolg mit Fear."
+      ],
+      "cut": "Sobald zwei Hinweise gesichert und die Rettung entschieden ist, schlägt die Glocke dreizehnmal. Die Papiermotte flüstert: Findet Tessa, bevor die Nulluhr uns schließt.",
+      "image": "/assets/illustrationen/map_city_gm_v1_5.png"
+    },
+    {
+      "id": 2,
+      "title": "Markt ohne Gestern",
+      "location": "Genossenschaftsmarkt",
+      "duration_minutes": 50,
+      "goal": "Fraktionen vorstellen, zwei Archivzugänge gewinnen und Haltung provozieren.",
+      "opening": "Der Markt verkauft Mittwochsbrot zum Montagspreis. Niemand kann erklären, wo die fehlende Lieferung blieb. Drei Gesprächsinseln streiten höflich um die Wirklichkeit.",
+      "beats": [
+        "Jori will eine öffentliche Zusage gegen den Vertrag oder konkrete Hilfe für den Streik.",
+        "Orsino will Quittung und Namen; er verrät, dass der Vertrag bei Nulluhr endgültig wird.",
+        "Voss will Panik vermeiden und warnt vor einer Rückwelle.",
+        "Zwei Zugänge: Szene 3 Schwierigkeit 10; einer: 12; keiner: 14."
+      ],
+      "clues": [
+        "Joris Flugblatt warnt handschriftlich vor Schicht 3.",
+        "Tessa versteckte Beweise im Archiv.",
+        "Es existiert eine geschützte Transportzelle.",
+        "Zugänge: Mitgliedssiegel, Durchsuchungsbescheid, Vertragsnadel oder eigener Weg."
+      ],
+      "moves": [
+        "Eine Händler*in vergisst ein Kind.",
+        "Orsino lässt einen Namen aus der öffentlichen Liste streichen.",
+        "Voss verlangt Verantwortung für die Unruhe.",
+        "Linie 7 erscheint nur als Spiegelung im Regen."
+      ],
+      "cut": "Sobald die Gruppe ihre Archivroute festgelegt hat, zieht das Amt seine Fensterläden gleichzeitig zu. Niemand hat sie berührt.",
+      "image": "/assets/illustrationen/map_city_gm_v1_5.png"
+    },
+    {
+      "id": 3,
+      "title": "Archiv der kleinen Wahrheiten",
+      "location": "Unter dem Amt für Wochentage",
+      "duration_minutes": 55,
+      "goal": "Vertragskern, Tessas Botschaft und Linie 7 lokalisieren.",
+      "opening": "Das Archiv ist ein Wald aus Regalen, deren Beschriftungen sich schämen. In seinem Zentrum dreht ein Indexrad Arbeit, Erinnerung und Fürsorge gegeneinander.",
+      "beats": [
+        "Lesesaal: Voss wurde erpresst; vier Magistratssitze waren gekauft.",
+        "Formularschublade: Formular 88b individualisiert bekannte Existenzlücken.",
+        "Regalwald: Verdrängte Wahrheiten besänftigen den Indexschwarm.",
+        "Indexrad: Arbeit, Erinnerung und Fürsorge ausrichten – jede passende Deutung gilt.",
+        "Kanalsteg: Quittung plus blaues Wachs enthüllt Bahnsteig und Botschaft.",
+        "Optionaler Konflikt: 1 Indexschwarm und 2 Taktwächter*innen; Rückzug bei geöffnetem Indexrad oder öffentlicher Übertragung."
+      ],
+      "clues": [
+        "Der rohe Dienstag liegt als Pfand unter dem Kalenderwerk.",
+        "Exportiert werden nur seine Zeit-Zinsen.",
+        "Sechs Siegel halten den Vertrag: drei in Menschen, drei in der Nulluhr.",
+        "Die Linie wird durch den Erinnerungsfilter verborgen; Depot Null wird überwacht."
+      ],
+      "moves": [
+        "Sortiere eine Person vorübergehend aus der Szene.",
+        "Lass eine wahre Akte eine unbequeme Gegenfrage stellen.",
+        "Aktiviere den Indexschwarm, aber zeige seine Besänftigung sofort.",
+        "Biete den Hinweis mit Stress, Öffentlichkeit oder verlorener Zeit an."
+      ],
+      "cut": "Die phonographische Stimme Tessas sagt: Brecht die Siegel nicht blind. Gebt dem Tag eine Form, die niemand besitzen kann. Dann fährt tief unter dem Kanal eine Tram ein.",
+      "image": "/assets/illustrationen/map_archive_v1_0.png"
+    },
+    {
+      "id": 4,
+      "title": "Fahrt nach Nachmorgen",
+      "location": "Linie 7",
+      "duration_minutes": 50,
+      "goal": "Übergang, persönliche Wahrheiten und bewegter Konflikt; Ende des ersten Abends.",
+      "opening": "Drei Waggons tragen die Namen Erinnerungen, Möglichkeiten und verlorene Minuten. Draußen fährt dieselbe regennasse Mauer vorbei, bis sie beschließt, keine Mauer mehr zu sein.",
+      "beats": [
+        "Jede Figur beantwortet eine Waggonfrage und erhält 1 Hope oder löscht 1 Stress.",
+        "Herr Pünktlich ist ein parasitäres Vertragsecho, kein Konsortiumsangestellter.",
+        "Er verlangt den Beweis, dass die Reisenden an einem Dienstag existierten.",
+        "Gewalt ruft zwei Minutenzehrer; Zugehörigkeit kann seinen ersten Zweifel wecken.",
+        "Entgleisende Erinnerung: Schwierigkeit 12; bei Fear Entgleisung +1."
+      ],
+      "clues": [
+        "Mio duldet Pünktlich, weil seine gewaltsame Entfernung die Schutzmagie zerreißen würde.",
+        "Die Linie erscheint nur bei Regen, verborgenen Halten oder resonierenden Zeitankern.",
+        "Nachmorgen wird von einer abgeschotteten Versorgungszelle geschützt."
+      ],
+      "moves": [
+        "Trenne eine Figur in den nächsten Waggon.",
+        "Lass eine gewünschte Zukunft einen Preis verlangen.",
+        "Entgleisung +1 oder zeige die nahende Ablösung des Waggons.",
+        "Stelle eine Frage, statt Schaden auszuteilen."
+      ],
+      "cut": "Die Tram bricht durch eine weiße Wand. Dahinter liegt Veyra im goldenen Licht eines endlosen Dienstagnachmittags. Eine Person aus der Vergangenheit sagt: Ihr seid spät. Natürlich seid ihr das.",
+      "image": "/assets/illustrationen/map_city_gm_v1_5.png"
+    },
+    {
+      "id": 5,
+      "title": "Menschen aus Minuten",
+      "location": "Nachmorgen",
+      "duration_minutes": 50,
+      "goal": "Tessa finden, die Stakes vermenschlichen und einen sicheren Rückweg lernen.",
+      "opening": "Die Vergessenen haben Küchen, Werkstätten und ein Plenum gebaut. Nachmorgen ist kein leerer Kerker, sondern eine Gesellschaft, deren Existenz in Veyras Haushaltsplan als Rundungsfehler gilt.",
+      "beats": [
+        "Lio sammelt verlorene Geburtstage: erzählen gibt 1 Hope und Lios Schlüssel.",
+        "Vorräte teilen: Gemeinsamer Takt +1; sparen: einmalige automatische Tresorflucht.",
+        "Tessa erklärt das Ritual der Gemeinsamen Minute.",
+        "Alle vier können im Finale je 1 Hope ausgeben: Vertrag −1 und Ende Gemeingut geöffnet.",
+        "Zuhören gewinnt das Ritual; sofortiges Drängen spart 20 Minuten, erhöht aber den Endpreis."
+      ],
+      "clues": [
+        "Die Rückwelle ist das lokale Rohzeit-Pfand, nicht die exportierten Zeit-Zinsen.",
+        "Mit einem Verteilungsplan ist die Rückwelle beherrschbar.",
+        "Mio platzierte Tessas Papiermotte um 23:58 Uhr.",
+        "Tessa hielt Jori die Route vor, weil die Gewerkschaft bereits infiltriert war."
+      ],
+      "moves": [
+        "Zeige unterschiedliche Wünsche innerhalb Nachmorgens.",
+        "Mache Hilfe konkret: Nahrung, Wege, Schutz oder Zuhören.",
+        "Lass Solidarität eine echte Ressource erzeugen.",
+        "Verweigere die falsche Wahl zwischen Vertrag und Chaos."
+      ],
+      "cut": "Tessa öffnet einen Wartungstunnel. Über ihnen beginnt die Besetzung des Kalenderwerks; der Boden zählt laut bis sechs.",
+      "image": "/assets/illustrationen/map_city_gm_v1_5.png"
+    },
+    {
+      "id": 6,
+      "title": "Besetzung des Kalenderwerks",
+      "location": "Kalenderwerk",
+      "duration_minutes": 50,
+      "goal": "Drei parallele Fronten lösen und den Chronotresor öffnen.",
+      "opening": "Der Gemeinsame Takt besetzt die Druckerei. Voss bringt die Stadtwache und den Gesichtsausdruck einer Person, die Verhandlungen für eine Naturkatastrophe hält. Orsino startet die Wochentagsstanzen.",
+      "beats": [
+        "Drei offene Leisten mit je drei Segmenten: Menge schützen, Maschinen stoppen, Voss überzeugen.",
+        "Kluge Teamaktionen dürfen zwei Leisten betreffen.",
+        "Nach je zwei Spieler*innen-Spotlights reagiert die GM; früher bei Fear oder goldener Gelegenheit.",
+        "Der Zugang öffnet spätestens nach fünf Runden der Fiktion – mit Kosten statt Sackgasse."
+      ],
+      "clues": [
+        "Öffentliche Beweise und Schutzhandlungen sind wirksamer als pauschale Gewalt.",
+        "Maschinengefahr erzeugt zwei Papierknechte und Nulluhr +1.",
+        "Voss kann den Verwaltungsschacht öffnen und Verbündete werden."
+      ],
+      "moves": [
+        "Isoliere Jori, wenn die Menge drei Gefahr erreicht.",
+        "Lass die Stanzen neue Vertragssiegel pressen.",
+        "Fordere eine konkrete Zusage statt einer perfekten Rede.",
+        "Öffne den Schacht mit einem sichtbar gewordenen Preis."
+      ],
+      "cut": "Der Verwaltungsschacht öffnet sich. Aus der Tiefe steigt keine Hitze, sondern der Geruch eines Nachmittags, den jemand anderes ausgeruht hat.",
+      "image": "/assets/illustrationen/map_city_gm_v1_5.png"
+    },
+    {
+      "id": 7,
+      "title": "Der Chronotresor",
+      "location": "Unter der Nulluhr",
+      "duration_minutes": 60,
+      "goal": "Siegel durch Entscheidungen lösen und das Finale vorbereiten.",
+      "opening": "Der Tresor ist Reifekammer und Pfandhaus. Im Kern bleibt der rohe Dienstag gebunden; Stanzen schöpfen Regeneration, Möglichkeiten und Lebensjahre als Zinsen ab.",
+      "beats": [
+        "A Schleuse: Was ist Zeit wert?",
+        "B Pfandkammer: Welche Erinnerung bleibt privat?",
+        "C Bilanzsaal: Wer trägt die Schulden?",
+        "D Dienstag: Darf ein Tag Nein sagen?",
+        "E Nulluhr: Welche Ordnung folgt?",
+        "Keine Tür verlangt eine bestimmte Probe; bei Risiko Schwierigkeit 12, vorbereitet 10, direkter Widerstand 14.",
+        "Jedes gelöste Siegel entfernt 1 HP der Nulluhr oder deaktiviert ein Feature."
+      ],
+      "clues": [
+        "Orsinos Bilanzbuch trennt Rohzeit und Zeit-Zinsen.",
+        "Der Dienstag wurde nie vollständig ausgeführt.",
+        "Eine öffentliche Bilanz überzeugt im Finale einmal eine Fraktion ohne Probe.",
+        "Ohne Zustimmung des Dienstags bleibt das Gemeingut-Ende gesperrt."
+      ],
+      "moves": [
+        "Verlange einen Preis, aber nie die einzig richtige Antwort.",
+        "Mache eine private Erinnerung zur Versuchung, nicht zur Enteignung.",
+        "Rufe Papierknechte oder Vertrag +1 bei Fear im Bilanzsaal.",
+        "Lass zwei Fraktionen einen konkreten Grundsatz formulieren."
+      ],
+      "cut": "Mit der letzten Entscheidung entfaltet die Nulluhr sechs Zeiger. Orsino tritt aus seinem eigenen verspäteten Schatten und setzt das letzte Siegel.",
+      "image": "/assets/illustrationen/map_vault_v2_0.png"
+    },
+    {
+      "id": 8,
+      "title": "Wem gehört die Zeit?",
+      "location": "Bilanzsaal und Stadt zugleich",
+      "duration_minutes": 40,
+      "goal": "Finale als Kampf, Verhandlung oder Ritual und eine Ordnung jenseits falscher Binärlogik.",
+      "opening": "Die Nulluhr zeigt mögliche Zukünfte über der Stadt: geordnete Armut, chaotische Freiheit, privatisierte Unsterblichkeit und erschöpfte Fürsorge. Der Dienstag erscheint als vielstimmige Person und verlangt Beteiligung.",
+      "beats": [
+        "Nulluhr startet mit verbleibenden HP und Features; GM-Fear höchstens 8.",
+        "Angriff, Siegelumdeutung, Fraktionsarbeit, Schutz und Ritual sind gleichwertige Wege.",
+        "Nach jedem vollständigen Gruppenumlauf Vertrag +1, sofern kein Erfolg gegen die Nulluhr erzielt wurde.",
+        "Bei vollem Vertrag bleibt eine drastische gemeinsame Zahlung oder das Ende Vertrag mit Rissen.",
+        "Finale endet bei 0 HP, vier umgedeuteten Siegeln oder überzeugtem/entmachteten Orsino."
+      ],
+      "clues": [
+        "Dienstag ist Person und Infrastruktur zugleich.",
+        "Zustimmung des Dienstags ersetzt nicht die Zustimmung der Betroffenen.",
+        "Ein Verteilungsplan entscheidet, wer die Rückwelle trägt.",
+        "Unentgeltliche Solidarität destabilisiert Orsinos Magie."
+      ],
+      "moves": [
+        "Nulluhr: Zukunft schneiden gegen bis zu zwei nahe Ziele.",
+        "1 Fear: Montag für immer, Vertrag +1; 1 Hope plus Erinnerung verhindert dies.",
+        "Zeige Folgen für konkrete Menschen, nicht nur für Kalender.",
+        "Frage: Wer entscheidet, wer zahlt und welche Stimme fehlt?"
+      ],
+      "cut": "Wenn eine Ordnung benannt ist, beschreibe ihre erste unvollkommene Institution. Frage jede Figur, was sie am ersten freien Dienstag tut.",
+      "image": "/assets/illustrationen/map_vault_v2_0.png"
+    }
+  ],
+  "countdowns": [
+    {"id":"contract","name":"Endgültiger Vertrag","segments":6,"start":1,"ticks":"Deutliches Scheitern in Szenen 1, 4, 6 oder 7; langer Rest; Nulluhr-Feature.","full":"Der Vertrag tritt in Kraft; andere Enden brauchen einen großen gemeinsamen Preis."},
+    {"id":"attention","name":"Erhöhte Aufmerksamkeit","segments":4,"start":0,"ticks":"Offene Magie, verlorene Beweise, sichtbare Sabotage oder Erfolg mit Fear.","full":"Morgen & Söhne handelt zuerst und isoliert eine verbündete Person oder einen Zugang."},
+    {"id":"derailment","name":"Entgleisung Linie 7","segments":3,"start":0,"ticks":"Fear in Szene 4 oder ignorierte Gefahr.","full":"Ein Waggon löst sich; Rettung kostet Zeit oder Ressourcen."},
+    {"id":"common_beat","name":"Gemeinsamer Takt","segments":4,"start":1,"ticks":"Solidarität, Wahrheit und Schutz ohne Gegenleistung.","full":"Die Stadtgesellschaft trägt ein Ende; einmal automatisch zwei Fortschritt."}
+  ],
+  "npcs": [
+    {"id":"tessa","name":"Tessa Quendel","role":"Archivarin · sie/ihr","look":"Wache Augen, tintengefleckte Hände, Mantel voller Randnotizen.","want":"Zeit muss erinnerbar und gemeinsam verhandelbar sein.","fear":"Dass die Rückkehr Nachmorgen auslöscht.","voice":"Präzise; korrigiert sich öffentlich und lacht an falschen Stellen.","secret":"Kennt das Ritual, prägte die Papiermotte und hält die volle Linie-7-Route selbst vor Jori geheim.","question":"Welche Wahrheit hast du aus Fürsorge versteckt?","portrait":"/assets/portraits/npc_tessa.png"},
+    {"id":"jori","name":"Jori Venn","role":"Straßenbahnmechanikerin · sie/ihr","look":"Kupferprothese und ölverschmierte Festkleidung.","want":"Ausbeutung sichtbar machen und das Werk demokratisieren.","fear":"Dass spontane Wut die Schwächsten trifft.","voice":"Kurze Sätze, konkrete Aufgaben, herzlicher schwarzer Humor.","secret":"Ihr Bruder lebt in Nachmorgen; sie kennt die Versorgungszelle, aber nicht Route oder Fahrplan.","question":"Wann wird Schutz zur Bevormundung?","portrait":"/assets/portraits/npc_jori.png"},
+    {"id":"voss","name":"Elian Voss","role":"Bürgermeisterin · sie/keine Präferenz","look":"Müde Eleganz und sieben bewusst unterschiedliche Uhren.","want":"Veyra zusammenhalten und die alte Entscheidung rechtfertigen.","fear":"Chaos, in dem Reiche fliehen und Arme zahlen.","voice":"Verhandelt wie eine Haushaltsdebatte und sagt selten ich.","secret":"Wurde erpresst, verschwieg aber Alternativen; kann Verbündete werden.","question":"Was müsste sie öffentlich eingestehen?","portrait":"/assets/portraits/npc_elian.png"},
+    {"id":"orsino","name":"Orsino Vale","role":"Vertragsagent · er/ihm","look":"Makelloser weißer Anzug; Schatten fünf Sekunden verspätet.","want":"Beweisen, dass alles einen Preis und jeder Preis eine Eigentümer*in hat.","fear":"Unentgeltliche Solidarität macht seine Magie unberechenbar.","voice":"Höflich, nie laut; beantwortet Gefühle mit Klauseln.","secret":"Ist selbst aus verkauften Lebensjahren zusammengesetzt und kann Befreiung wählen.","question":"Ist eine Person verantwortlich für das System, das sie erschuf?","portrait":"/assets/portraits/npc_orsino.png"},
+    {"id":"mio","name":"Mio Kest","role":"Fahrer*in Linie 7 · dey/deren","look":"Messingbrille; Fahrscheinlocher wie ein Dirigierstab.","want":"Passagier*innen sicher zwischen den Tagen bewegen.","fear":"Die Linie zu verlieren, die Nachmorgen versorgt.","voice":"Erklärt Kosmologie als Nahverkehrsproblem.","secret":"Schmuggelte Tessas Papiermotte und platzierte sie um 23:58 Uhr am Geländer.","question":"Welcher Umweg ist ein Zuhause?","portrait":"/assets/portraits/npc_mio.png"},
+    {"id":"tuesday","name":"Dienstag","role":"Enteigneter Wochentag · keine festen Pronomen","look":"Wechselnder Chor vieler Alter und Körper.","want":"Selbstbestimmung, Erinnerung und eine Rolle ohne Eigentum.","fear":"Als bloße Ressource gerettet zu werden.","voice":"Vollendet Sätze, die Menschen aus Müdigkeit abbrachen.","secret":"Kann sich in Stadtzeit verteilen, wenn vier Stimmen zustimmen.","question":"Was bedeutet Freiheit für etwas, das alle benutzen?","portrait":"/assets/portraits/npc_dienstag.png"}
+  ],
+  "adversaries": [
+    {"id":"guard","name":"Taktwächter*in","role":"Standard","difficulty":11,"thresholds":"7 / 12","hp":4,"stress":2,"attack":"+1","damage":"1d8+3 phy","range":"Very Close","motives":"Uhren schützen, Zeug*innen isolieren, Öffentlichkeit vermeiden.","features":["Synchroner Schritt: Zweite Wache gegen dasselbe Ziel erhält +1.","Festhalten: 1d6+2 phy und Restrained bis zur Befreiungsaktion.","Dienst nach Vorschrift: Bei öffentlichen Beweisen 1 Stress oder Waffe senken; bei vollem Stress Rückzug."],"portrait":"/assets/portraits/enemy_taktwaechter.png"},
+    {"id":"index","name":"Indexschwarm","role":"Horde","difficulty":10,"thresholds":"6 / 11","hp":5,"stress":1,"attack":"+0","damage":"1d6+2 mag","range":"Close","motives":"Falsch einsortierte Wahrheiten verdecken und laute Gewissheiten jagen.","features":["Viele Zettel: Ab 3 HP höchstens 2 HP durch einen Angriff.","Papierkanten: Alle in Very Close würfeln Agility 10; Fehlschlag 1d6+2 mag.","Wahre Einordnung: Verdrängte Wahrheit plus Presence 10 kostet 1 HP und macht kurz Harmless."],"portrait":"/assets/portraits/enemy_indexschwarm.png"},
+    {"id":"minute_eater","name":"Minutenzehrer","role":"Skulk","difficulty":12,"thresholds":"6 / 11","hp":3,"stress":2,"attack":"+2","damage":"1d8+2 mag","range":"Very Close","motives":"Unbeobachtete Augenblicke stehlen und Nachzügler*innen trennen.","features":["Zwischen den Blicken: Nach Fear in Close versetzen.","Zeitbiss: Schaden und 1 Stress; ohne freien Stress zusätzlich 1 HP.","Geliehener Augenblick: 1 Fear, nach einer Spieler*innenaktion bewegen oder angreifen."],"portrait":"/assets/portraits/enemy_minutenzehrer.png"},
+    {"id":"clerk","name":"Papierknecht","role":"Minion","difficulty":9,"thresholds":"—","hp":1,"stress":0,"attack":"+0","damage":"3 phy","range":"Melee","motives":"Stempeln, blockieren und bei Widerspruch nervös werden.","features":["Minion: Jeder erfolgreiche Angriff besiegt ihn; eigener Schaden höchstens 1 HP.","Formularlawine: Ziel in Very Close wird Vulnerable, bis es Zuständigkeit nennt oder handelt."],"portrait":"/assets/portraits/enemy_papierknecht.png"},
+    {"id":"punctual","name":"Herr Pünktlich","role":"Social Bruiser","difficulty":12,"thresholds":"8 / 14","hp":6,"stress":3,"attack":"+1","damage":"1d10+2 mag","range":"Close","motives":"Zugehörigkeit kontrollieren und sich nach einem eigenen Ziel sehnen.","features":["Fahrkarten bitte: Dienstagserinnerung oder Presence/Knowledge 12; Fehlschlag 1 Stress und Restrained.","Anschluss verpasst: 1 Fear, Entgleisung +1 oder eine Figur trennen.","Erster Zweifel: Bedingungslose Zugehörigkeit kostet ihn 2 Stress; bei vollem Stress Seitenwechsel."],"portrait":"/assets/portraits/enemy_herr_puenktlich.png"},
+    {"id":"orsino_enemy","name":"Orsino Vale","role":"Leader","difficulty":13,"thresholds":"8 / 15","hp":7,"stress":4,"attack":"+2","damage":"1d10+3 mag","range":"Far","motives":"Unter Druck verhandeln, andere als Klauseln benutzen und nicht allein sein.","features":["Kleingedrucktes: Ein Papierknecht kann statt 1 HP besiegt werden.","Bindende Klausel: Schaden; Ziel kann bis zum nächsten Spotlight keine Hope ausgeben.","Eigentumsvorbehalt: 1 Fear bindet Objekt oder Zone; Nutzung kostet 1 Stress oder Aktion gegen 12.","Unbezahlbar: Hilfe ohne Gegenleistung markiert 1 Stress; bei vollem Stress Flucht, Kapitulation oder Offenlegung."],"portrait":"/assets/portraits/npc_orsino.png"},
+    {"id":"zero_clock","name":"Die Nulluhr","role":"Solo","difficulty":14,"thresholds":"9 / 16","hp":10,"stress":4,"attack":"+2","damage":"1d12+3 mag","range":"Far","motives":"Möglichkeiten schließen, Lasten nach Zahlungsfähigkeit verteilen und den Vertrag vollenden.","features":["Relentless 2: Bis zu zweimal pro GM-Turn ins Spotlight.","Sechs Zeiger: Bei 7/4/1 HP je einen Zeiger verlieren; −1 Difficulty oder Feature aus.","Zukunft schneiden: Bis zu zwei nahe Ziele separat, 1d10+2 mag.","Montag für immer: 1 Fear, Vertrag +1; 1 Hope plus passende Erinnerung verhindert dies.","Rücklauf: Nach Severe Damage Rückwelle +1, höchstens einmal pro Runde."],"portrait":"/assets/portraits/enemy_nulluhr.png"}
+  ],
+  "handouts": [
+    {"id":"receipt","number":1,"title":"Die Dienstagsquittung","scene":1,"description":"Vertrag 7/7, Rohzeit-Pfand und Tessas handschriftliche Spur.","asset":""},
+    {"id":"timetable","number":2,"title":"Fahrplan der Linie 7","scene":3,"description":"Geheime Halte zwischen zwei Sätzen und dem Nachmorgen.","asset":""},
+    {"id":"vote","number":3,"title":"Protokoll der Notabstimmung","scene":3,"description":"Gekaufte Stimmen, Voss’ Gegenantrag und die Neuvermessung vor einhundert Wochen.","asset":""},
+    {"id":"message","number":4,"title":"Tessas Botschaft","scene":3,"description":"Der rohe Dienstag blieb; sechs Siegel halten den Vertrag.","asset":""},
+    {"id":"seals","number":5,"title":"Die sechs Siegel","scene":7,"description":"Besitz, Schuld, Schweigen, Gehorsam, Alternativlosigkeit und Eile.","asset":""},
+    {"id":"clocks","number":6,"title":"Offene Countdowns","scene":1,"description":"Vier offen geführte Leisten für Druck und Solidarität.","asset":""},
+    {"id":"city_map","number":7,"title":"Karte von Veyra","scene":1,"description":"Spielendensichere Stadtkarte ohne Plotspoiler.","asset":"/assets/illustrationen/map_city_players_v1_0.png"},
+    {"id":"leaflet","number":8,"title":"Flugblatt des Gemeinsamen Takts","scene":2,"description":"Aufruf zum Streik bei der hundertsten Nulluhr.","asset":"/assets/handouts/handout_common_beat.jpg"},
+    {"id":"form88b","number":9,"title":"Formular 88b","scene":3,"description":"Meldung temporärer Existenzlücken, amtlich kleingestempelt.","asset":"/assets/handouts/handout_form_88b.jpg"},
+    {"id":"birthdays","number":10,"title":"Lios verlorene Geburtstage","scene":5,"description":"Ein kindliches Gegenarchiv verschwundener Daten.","asset":"/assets/handouts/handout_lio_birthdays.jpg"},
+    {"id":"ledger","number":11,"title":"Auszug aus Orsinos Bilanzbuch","scene":7,"description":"Rohzeit und Zeit-Zinsen in getrennten Konten.","asset":"/assets/handouts/handout_orsino_ledger.jpg"}
+  ],
+  "endings": [
+    {"name":"Der Dienstag als Gemeingut","opening":"Ritual bekannt oder Gemeinsamer Takt voll; Zustimmung des Dienstags.","outcome":"Das Rohzeit-Pfand fließt in Stadtversammlungen, Pflege- und Erholungsfonds. Nachmorgen erhält Autonomie und Übergänge.","cost":"Jede Figur gibt 1 Hope oder markiert 1 Stress; die erste Woche ist chaotisch, aber gemeinsam getragen."},
+    {"name":"Rückgabe an den Kalender","opening":"Nulluhr besiegt und Verteilungsplan benannt.","outcome":"Der normale Dienstag und seine Erinnerungen kehren zurück; exportierte Zinsen müssen politisch zurückgefordert werden.","cost":"Eine Figur opfert einen persönlichen Zeitanker, damit die Rückwelle langsam einsetzt."},
+    {"name":"Nachmorgen bleibt frei","opening":"Das Kollektiv wurde konsultiert und ein sicherer Übergang geschaffen.","outcome":"Veyra behält sechs Tage, löst Exportklauseln, zahlt Reparationen und erkennt Nachmorgen als autonome Nachbarzeit an.","cost":"Veyra verliert wirtschaftliche Vorteile; der Konflikt bleibt politisch statt kosmisch."},
+    {"name":"Der Vertrag mit Rissen","opening":"Countdown voll oder bewusster Kompromiss.","outcome":"Morgen & Söhne behält Dienstag, aber Arbeitsschutz, Rückkehrrecht und öffentliche Kontrolle werden erzwungen.","cost":"Das Eigentumsprinzip bleibt. Orsino nennt dies Vernunft; niemand muss ihm zustimmen."},
+    {"name":"Die offene Woche","opening":"Dienstag stimmt zu; mindestens drei Fraktionen akzeptieren Ungewissheit.","outcome":"Die sieben Tage lösen sich in lokale Rhythmen; Fürsorgezeiten werden verbindliche Gemeingüter.","cost":"Zentrale Zeitmagie fällt vorübergehend aus. Erstaunlicherweise kommt die Müllabfuhr trotzdem."}
+  ],
+  "quick_reference": [
+    {"when":"Die Gruppe festhängt","then":"Wichtigsten Hinweis durch eine Konsequenz geben; nach akzeptablen Kosten fragen."},
+    {"when":"Ein Kampf zu lang wird","then":"Motive sichtbar machen und Rückzug, Kapitulation oder verändertes Ziel anbieten."},
+    {"when":"Fear sich stapelt","then":"Für Features, Environment und Spotlight ausgeben; nicht bis zum Finale horten."},
+    {"when":"Zeit knapp wird","then":"Reise kürzen, nie die Entscheidung; Nebenkonflikte montieren."},
+    {"when":"Eine kreative Lösung überrascht","then":"Einer Front oder einem Siegel zuordnen und echten Fortschritt geben."},
+    {"when":"Das Ende unklar ist","then":"Fragen: Wer entscheidet? Wer zahlt? Wer fehlt? Dann konkrete Folgen beschreiben."}
+  ]
+}
+
