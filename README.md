@@ -104,7 +104,9 @@ git lfs install
 git lfs pull
 ```
 
-## Rechte und Fanprojektstatus
+## Rechte, Lizenz und Fanprojektstatus
 
-Dies ist ein unabhängiges, nicht offiziell unterstütztes Fanprojekt. Daggerheart ist ein Warenzeichen von Critical Role LLC. Weitere Hinweise stehen in [RECHTE.md](RECHTE.md).
-
+Die eigenen Projektinhalte stehen unter CC BY-SA 4.0; Daggerheart-SRD-Anteile werden getrennt unter
+der Darrington Press Community Gaming License verwendet. Dies ist ein unabhängiges, nicht offiziell
+unterstütztes Fanprojekt. Daggerheart ist eine Marke von Critical Role, LLC. Maßgeblich sind die
+ausführlichen Hinweise in [RECHTE.md](RECHTE.md).
